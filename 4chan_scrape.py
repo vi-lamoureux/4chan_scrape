@@ -8,6 +8,7 @@ from datetime import datetime
 from concurrent.futures import ThreadPoolExecutor
 import psycopg2
 
+
 start_time = time.time()
 
 # PostgreSQL connection details (need to be filled in)
