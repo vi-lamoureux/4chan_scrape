@@ -12,11 +12,11 @@ import psycopg2
 start_time = time.time()
 
 # PostgreSQL connection details (need to be filled in)
-host="host"
-port=5432
-user="user"
-password="password"
-database="database name"
+host="[host]"
+port=5432 # typical PostgreSQL port
+user="[user]"
+password="[password]"
+database="[database name]"
 
 # Use try-except block for database connection
 try:
