@@ -26,7 +26,7 @@ except Exception as e:
     print("Error connecting to database: ", e)
 
 # URL for 4chan JSON API
-url = "https://a.4cdn.org/pol/catalog.json"
+url = "https://a.4cdn.org/[board]/catalog.json"
 
 # Define a function to remove HTML tags and other unwanted characters from a string
 def clean_text(text):
